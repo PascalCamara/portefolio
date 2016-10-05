@@ -756,3 +756,22 @@ header .intro-text {
 	border: 0px solid transparent;
 	border-radius: 0px;
 }
+
+.pp_bottom {
+	text-align: center;
+}
+
+.pp_bottom a.btn {
+	color: #fff;
+	border: 1px solid #FFF;
+	border-radius: 0;
+}
+
+.pp_bottom a.btn:hover {
+	color: rgba(255, 255, 255, 0.5);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+div.pp_default .pp_content, div.light_rounded .pp_content {
+	background-color: transparent!important;
+}

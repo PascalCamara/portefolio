@@ -102,10 +102,10 @@
                         <ol class="type">
                             <li><a href="#" data-filter="*" class="active">Tous</a></li>
                             <li><a href="#" data-filter=".projet">Projets EEMI</a></li>
-                            <li><a href="#" data-filter=".app">PHP procédural</a></li>
-                            <li><a href="#" data-filter=".branding">AngularsJs</a></li>
-                            <li><a href="#" data-filter=".branding">Wordpress</a></li>
-                            <li><a href="#" data-filter=".branding">Framework PHP</a></li>
+                            <li><a href="#" data-filter=".procedural">PHP procédural</a></li>
+                            <li><a href="#" data-filter=".app">AngularsJs</a></li>
+                            <li><a href="#" data-filter=".wp">Wordpress</a></li>
+                            <li><a href="#" data-filter=".frameworkPHP">Framework PHP</a></li>
                         </ol>
                     </li>
                 </ul>
@@ -113,78 +113,79 @@
             </div>
             <div class="row">
                 <div class="portfolio-items">
-                    <div class="col-sm-6 col-md-3 col-lg-3 projet">
+                    <div class="col-sm-6 col-md-3 col-lg-3 vignette app" data-url="http://app-bilan-pro.april.fr/app/#!/home/1" >
                         <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="assets/images/portfolio/01-large.jpg" title="Project description" rel="prettyPhoto">
-                                    <div class="hover-text">
-                                        <h4>Project Title</h4>
-                                        <small>Projet Design</small> </div>
-                                    <img src="assets/images/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                            <div class="hover-bg"> <a href="assets/images/portfolio/01-large.jpg"   rel="prettyPhoto">
+                                <div class="hover-text">
+                                    <h4 class="vignette_project_title">Wep Application</h4>
+                                    <small>Développement & mise en production <br />
+                                        AngularJs
+                                    </small>
+
+                                </div>
+                                <img src="assets/images/portfolio/01-small.jpg" class="img-responsive" alt="Wep Application"> </a> </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3 col-lg-3 projet">
-                        <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="assets/images/portfolio/02-large.jpg" title="Project description" rel="prettyPhoto">
+                    <div class="col-sm-6 col-md-3 col-lg-3 vignette wp" data-url="http://lorafolk.com/">
+                        <div class="portfolio-item" >
+                            <div class="hover-bg"> <a href="assets/images/portfolio/02-large.jpg" rel="prettyPhoto">
                                     <div class="hover-text">
-                                        <h4>Project Title</h4>
-                                        <small>Projet Development</small> </div>
-                                    <img src="assets/images/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                                        <h4 class="vignette_project_title">Lorafolk</h4>
+                                        <small>Développement & mise en production <br />
+                                            Wordpress
+                                        </small> </div>
+                                    <img src="assets/images/portfolio/02-small.jpg" class="img-responsive" alt="Lorafolk"> </a> </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3 col-lg-3 projet">
+                    <div class="col-sm-6 col-md-3 col-lg-3 vignette frameworkPHP" data-url="https://www.simplis.fr/">
                         <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="assets/images/portfolio/03-large.jpg" title="Project description" rel="prettyPhoto">
+                            <div class="hover-bg"> <a href="assets/images/portfolio/03-large.jpg" rel="prettyPhoto">
                                     <div class="hover-text">
-                                        <h4>Project Title</h4>
-                                        <small>Web Design</small> </div>
-                                    <img src="assets/images/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                                        <h4 class="vignette_project_title">Simplis</h4>
+                                        <small>Integration <br />
+                                            Correctifs Back-end | Front-end <br />
+                                            Framework Codeilgniter
+                                        </small> </div>
+                                    <img src="assets/images/portfolio/03-small.jpg" class="img-responsive" alt="Simplis"> </a> </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3 col-lg-3 web">
+                    <div class="col-sm-6 col-md-3 col-lg-3 vignette wp"  data-url="http://www.equaliscapital.com/">
                         <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="assets/images/portfolio/04-large.jpg" title="Project description" rel="prettyPhoto">
+                            <div class="hover-bg"> <a href="assets/images/portfolio/04-large.jpg" rel="prettyPhoto">
                                     <div class="hover-text">
-                                        <h4>Project Title</h4>
-                                        <small>Projet Design</small> </div>
-                                    <img src="assets/images/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                                        <h4 class="vignette_project_title">Equalis Capital</h4>
+                                        <small>Developpement de shortcode & plugins <br />
+                                            Wordpress
+                                        </small> </div>
+                                    <img src="assets/images/portfolio/04-small.jpg" class="img-responsive" alt="Equalis Capital"> </a> </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3 col-lg-3 app">
+                    <div class="col-sm-6 col-md-3 col-lg-3 vignette projet" data-url="http://colin.etudiant-eemi.com/perso/familysitting/index.php?dossier=site&fichier=home">
                         <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="assets/images/portfolio/05-large.jpg" title="Project description" rel="prettyPhoto">
+                            <div class="hover-bg"> <a href="assets/images/portfolio/05-large.jpg" rel="prettyPhoto">
                                     <div class="hover-text">
-                                        <h4>Project Title</h4>
-                                        <small>App Development</small> </div>
-                                    <img src="assets/images/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                                        <h4 class="vignette_project_title">Familysitting</h4>
+                                        <small>Développeur <br />
+                                            Projet scolaire 2ème année EEMI
+                                        PHP Procedural | PHP
+                                        </small> </div>
+                                    <img src="assets/images/portfolio/05-small.jpg" class="img-responsive" alt="Familysitting"> </a> </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3 col-lg-3 branding">
+                    <div class="col-sm-6 col-md-3 col-lg-3 vignette procedural" data-url="http://camara.etudiant-eemi.com/perso/realisations/2ADEV_POO_MVC/">
                         <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="assets/images/portfolio/06-large.jpg" title="Project description" rel="prettyPhoto">
+                            <div class="hover-bg"> <a href="assets/images/portfolio/06-large.jpg" rel="prettyPhoto">
                                     <div class="hover-text">
-                                        <h4>Project Title</h4>
-                                        <small>Branding</small> </div>
-                                    <img src="assets/images/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                                        <h4 class="vignette_project_title">Blog</h4>
+                                        <small>
+                                            Mise en pratique des enseignements Développement <br />
+                                            PHP procédural | MVC | Ajax
+                                        </small> </div>
+                                    <img src="assets/images/portfolio/06-small.jpg" class="img-responsive" alt="Blog"> </a> </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3 col-lg-3 branding app">
-                        <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="assets/images/portfolio/07-large.jpg" title="Project description" rel="prettyPhoto">
-                                    <div class="hover-text">
-                                        <h4>Project Title</h4>
-                                        <small>App Development, Branding</small> </div>
-                                    <img src="assets/images/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3 col-lg-3 web">
-                        <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="assets/images/portfolio/08-large.jpg" title="Project description" rel="prettyPhoto">
-                                    <div class="hover-text">
-                                        <h4>Project Title</h4>
-                                        <small>Web Design</small> </div>
-                                    <img src="assets/images/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                        </div>
-                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -392,12 +393,8 @@
                 </form>
                 <div class="social">
                     <ul>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href="#"><i class="fa fa-github"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/PascalCamara"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://fr.linkedin.com/in/pascal-camara-292897a9"><i class="fa fa-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -417,5 +414,6 @@
 <script type="text/javascript" src="assets/js/waypoints.js"></script>
 <script type="text/javascript" src="assets/js/jqBootstrapValidation.js"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/javascript" src="assets/js/vignettes.js"></script>
 
 @endpush
