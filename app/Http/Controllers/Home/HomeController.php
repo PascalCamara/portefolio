@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Validator;
 
 class HomeController extends Controller
@@ -41,6 +42,16 @@ class HomeController extends Controller
         }
 
 
+    }
 
+    public function getDownload() {
+
+        $file= storage_path(). "/CV/pascal_camara_cv.pdf";
+
+        $headers = array(
+            'Content-Type: application/pdf',
+        );
+
+        return Response::download($file, 'pascal_camara_cv.pdf', $headers);
     }
 }

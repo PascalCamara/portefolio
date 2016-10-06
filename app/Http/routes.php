@@ -13,4 +13,5 @@
 
 
 Route::get('/', 'Home\HomeController@show')->name('home');
+Route::get('/CV', 'Home\HomeController@getDownload');
 Route::post('/store', 'Home\HomeController@update');

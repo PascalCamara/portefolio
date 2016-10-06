@@ -54,7 +54,7 @@
                         <p class="text-center" >Etudiant en 3ème année à l'école Européenne des Métiers de l'Internet en spécialité "développement web".</p>
                         <p class="text-center" >Polyvalent, j'ai choisi cette école pour la transversalité de la formation :</p>
                         <p class="text-center text-uppercase">Web designer - Web Developper - Web Marqueteur</p>
-                        <p class="text-center"><a class="btn btn-primary" href="#"><i class="fa fa-download"></i> Télécharger mon CV </a></p>
+                        <p class="text-center"><a class="btn btn-primary" href="{{ url('CV') }}" target="_blank"><i class="fa fa-download"></i> Télécharger mon CV </a></p>
                     </div>
                 </div>
             </div>
@@ -175,13 +175,13 @@
                     <div class="col-sm-6 col-md-3 col-lg-3 vignette procedural" data-url="http://camara.etudiant-eemi.com/perso/realisations/2ADEV_POO_MVC/">
                         <div class="portfolio-item">
                             <div class="hover-bg"> <a href="assets/images/portfolio/06-large.jpg" rel="prettyPhoto">
-                                    <div class="hover-text">
-                                        <h4 class="vignette_project_title">Blog</h4>
-                                        <small>
-                                            Mise en pratique des enseignements Développement <br />
-                                            PHP procédural | MVC | Ajax
-                                        </small> </div>
-                                    <img src="assets/images/portfolio/06-small.jpg" class="img-responsive" alt="Blog"> </a> </div>
+                                <div class="hover-text">
+                                    <h4 class="vignette_project_title">Blog</h4>
+                                    <small>
+                                        Mise en pratique des enseignements Développement <br />
+                                        PHP procédural | MVC | Ajax
+                                    </small> </div>
+                                <img src="assets/images/portfolio/06-small.jpg" class="img-responsive" alt="Blog"> </a> </div>
                         </div>
                     </div>
 
