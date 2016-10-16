@@ -203,8 +203,8 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <h4>04 - 08<br>
-                                    - <br>
+                                <h4>Avril - Septembre<br>
+                                    — <br>
                                     2016 </h4>
                             </div>
                             <div class="timeline-panel">
@@ -215,16 +215,16 @@
                                 <div class="timeline-body">
                                     <p>Développement d'une Web application en Angularjs</p>
                                     <p>Réalisation de sites en Wordpress</p>
-                                    <p>Mise en production web</p>
+                                    <p>Mise en production des sites</p>
                                     <p>Correctifs sur des sites en PHP (frameworks)</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <h4>10 / 2013 <br>
-                                    - <br>
-                                    07 / 2014 </h4>
+                                <h4>Octobre 2013 <br>
+                                    — <br>
+                                    Juillet 2014</h4>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -238,9 +238,9 @@
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <h4>11 / 2012 <br>
-                                    - <br>
-                                    07 - 2013 </h4>
+                                <h4>Novembre 2012 <br>
+                                    — <br>
+                                    Juillet 2013 </h4>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -249,15 +249,15 @@
                                 </div>
                                 <div class="timeline-body">
                                     <p>Responsabilité de la comptabilité du pôle Melun</p>
-                                    <p>Saisies et rapprochements des factures (Oracle)</p>
+                                    <p>Analyses et contrôles des budgets (Oracle)</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <h4>06 / 2012 <br>
-                                    - <br>
-                                    08 - 2012 </h4>
+                                <h4>Juin 2012 <br>
+                                    — <br>
+                                    Aôut 2012 </h4>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -265,8 +265,8 @@
                                     <h4 class="subheading">CDD Aide-comptable</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p>Rapprochement bancaire</p>
                                     <p>Team Meeting avec l'Angleterre</p>
+                                    <p>Rapprochement bancaire</p>
                                 </div>
                             </div>
                         </li>
@@ -288,7 +288,7 @@
                         <li>
                             <div class="timeline-image">
                                 <h4>2017 <br>
-                                    - <br>
+                                    — <br>
                                     2014 </h4>
                             </div>
                             <div class="timeline-panel">
@@ -309,7 +309,7 @@
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>Baccaleuréat professionnel comptabilité</h4>
-                                    <h4 class="subheading">Lino Ventura - Ozoir-la-Ferrière</h4>
+                                    <h4 class="subheading">Lycée Lino Ventura - Ozoir-la-Ferrière</h4>
                                 </div>
 
                             </div>
@@ -321,7 +321,7 @@
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>BEP comptabilité</h4>
-                                    <h4 class="subheading">Lino Ventura - Ozoir-la-Ferrière</h4>
+                                    <h4 class="subheading">Lycée Lino Ventura - Ozoir-la-Ferrière</h4>
                                 </div>
                             </div>
                         </li>
