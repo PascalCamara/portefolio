@@ -113,6 +113,19 @@
             </div>
             <div class="row">
                 <div class="portfolio-items">
+                    <div class="col-sm-6 col-md-3 col-lg-3 vignette wp" data-url="https://github.com/PascalCamara/keyprod" >
+                        <div class="portfolio-item">
+                            <div class="hover-bg"> <a href="assets/images/portfolio/09-large.jpg"   rel="prettyPhoto">
+                                    <div class="hover-text">
+                                        <h4 class="vignette_project_title">Plugin Wordpress</h4>
+                                        <small>Keyprod monitoring sur wordpress<br />
+                                            Wordpress | API Trello | VueJs
+                                        </small>
+
+                                    </div>
+                                    <img src="assets/images/portfolio/09-small.jpg" class="img-responsive" alt="Plugin Wordpress"> </a> </div>
+                        </div>
+                    </div>
                     <div class="col-sm-6 col-md-3 col-lg-3 vignette app" data-url="http://app-bilan-pro.april.fr/app/#!/home/1" >
                         <div class="portfolio-item">
                             <div class="hover-bg"> <a href="assets/images/portfolio/01-large.jpg"   rel="prettyPhoto">
