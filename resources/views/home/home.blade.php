@@ -207,6 +207,121 @@
         </div>
     </div>
 
+
+    <!-- Portfolio Section new -->
+    <div id="portfolio">
+        <div class="container">
+            <div class="section-title text-center center">
+                <h2>Portfolio new</h2>
+                <hr>
+            </div>
+            <div class="categories">
+                <ul class="cat">
+                    <li>
+                        <ol class="type">
+                            <li><a href="#" data-filter="*" class="active">Tous</a></li>
+                            <li><a href="#" data-filter=".projet">Projets EEMI</a></li>
+                            <li><a href="#" data-filter=".procedural">PHP procédural</a></li>
+                            <li><a href="#" data-filter=".app">AngularsJs</a></li>
+                            <li><a href="#" data-filter=".wp">Wordpress</a></li>
+                            <li><a href="#" data-filter=".frameworkPHP">Framework PHP</a></li>
+                        </ol>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+            <div class="row">
+                <div class="portfolio-items">
+                    <div class="col-sm-6 col-md-3 col-lg-3 vignette wp" data-url="https://github.com/PascalCamara/keyprod" >
+                        <div class="portfolio-item">
+                            <div class="hover-bg"> <a href="assets/images/portfolio/09-large.jpg"   rel="prettyPhoto">
+                                    <div class="hover-text">
+                                        <h4 class="vignette_project_title">Plugin Wordpress</h4>
+                                        <small>Keyprod monitoring sur wordpress<br />
+                                            Wordpress | API Trello | VueJs
+                                        </small>
+
+                                    </div>
+                                    <img src="assets/images/portfolio/09-small.jpg" class="img-responsive" alt="Plugin Wordpress"> </a> </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 vignette app" data-url="http://app-bilan-pro.april.fr/app/#!/home/1" >
+                        <div class="portfolio-item">
+                            <div class="hover-bg"> <a href="assets/images/portfolio/01-large.jpg"   rel="prettyPhoto">
+                                    <div class="hover-text">
+                                        <h4 class="vignette_project_title">Wep Application</h4>
+                                        <small>Développement & mise en production <br />
+                                            AngularJs
+                                        </small>
+
+                                    </div>
+                                    <img src="assets/images/portfolio/01-small.jpg" class="img-responsive" alt="Wep Application"> </a> </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 vignette wp" data-url="http://lorafolk.com/">
+                        <div class="portfolio-item" >
+                            <div class="hover-bg"> <a href="assets/images/portfolio/02-large.jpg" rel="prettyPhoto">
+                                    <div class="hover-text">
+                                        <h4 class="vignette_project_title">Lorafolk</h4>
+                                        <small>Développement & mise en production <br />
+                                            Wordpress
+                                        </small> </div>
+                                    <img src="assets/images/portfolio/02-small.jpg" class="img-responsive" alt="Lorafolk"> </a> </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 vignette frameworkPHP" data-url="https://www.simplis.fr/">
+                        <div class="portfolio-item">
+                            <div class="hover-bg"> <a href="assets/images/portfolio/03-large.jpg" rel="prettyPhoto">
+                                    <div class="hover-text">
+                                        <h4 class="vignette_project_title">Simplis</h4>
+                                        <small>Integration <br />
+                                            Correctifs Back-end | Front-end <br />
+                                            Framework Codeilgniter
+                                        </small> </div>
+                                    <img src="assets/images/portfolio/03-small.jpg" class="img-responsive" alt="Simplis"> </a> </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 vignette wp"  data-url="http://www.equaliscapital.com/">
+                        <div class="portfolio-item">
+                            <div class="hover-bg"> <a href="assets/images/portfolio/04-large.jpg" rel="prettyPhoto">
+                                    <div class="hover-text">
+                                        <h4 class="vignette_project_title">Equalis Capital</h4>
+                                        <small>Developpement de shortcode & plugins <br />
+                                            Wordpress
+                                        </small> </div>
+                                    <img src="assets/images/portfolio/04-small.jpg" class="img-responsive" alt="Equalis Capital"> </a> </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 vignette projet" data-url="http://colin.etudiant-eemi.com/perso/familysitting/index.php?dossier=site&fichier=home">
+                        <div class="portfolio-item">
+                            <div class="hover-bg"> <a href="assets/images/portfolio/05-large.jpg" rel="prettyPhoto">
+                                    <div class="hover-text">
+                                        <h4 class="vignette_project_title">Familysitting</h4>
+                                        <small>Développeur <br />
+                                            Projet scolaire 2ème année EEMI
+                                            PHP Procedural | PHP
+                                        </small> </div>
+                                    <img src="assets/images/portfolio/05-small.jpg" class="img-responsive" alt="Familysitting"> </a> </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 vignette procedural" data-url="http://camara.etudiant-eemi.com/perso/realisations/2ADEV_POO_MVC/">
+                        <div class="portfolio-item">
+                            <div class="hover-bg"> <a href="assets/images/portfolio/06-large.jpg" rel="prettyPhoto">
+                                    <div class="hover-text">
+                                        <h4 class="vignette_project_title">Blog</h4>
+                                        <small>
+                                            Mise en pratique des enseignements Développement <br />
+                                            PHP procédural | MVC | Ajax
+                                        </small> </div>
+                                    <img src="assets/images/portfolio/06-small.jpg" class="img-responsive" alt="Blog"> </a> </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Resume Section -->
     <div id="resume" class="text-center">
         <div class="container">
