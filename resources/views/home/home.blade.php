@@ -23,7 +23,8 @@
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
-                    <a class="navbar-brand page-scroll" href="#page-top">CAMARA Pascal</a> </div>
+                    <a class="navbar-brand page-scroll" href="#page-top">CAMARA Pascal</a>
+                </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -31,10 +32,12 @@
                         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                         <li class="hidden"> <a href="#page-top"></a> </li>
                         <li> <a class="page-scroll" href="#about">A propos de moi</a> </li>
-                        <li> <a class="page-scroll" href="#skills">Compétences</a> </li>
+                        <!-- <li> <a class="page-scroll" href="#skills">Compétences</a> </li> -->
                         <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
                         <li> <a class="page-scroll" href="#resume">Expériences</a> </li>
                         <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+                        <li><a style="padding: 10px 0px; line-height: 25px; margin-left: 10px;" href="https://github.com/PascalCamara" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <li><a style="padding: 10px 0px; line-height: 25px; margin-left: 10px;" href="https://fr.linkedin.com/in/pascal-camara-292897a9" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -60,7 +63,7 @@
             </div>
         </div>
     </div>
-    <!-- Skills Section -->
+    <!-- Skills Section
     <div id="skills" class="text-center">
         <div class="container">
             <div class="section-title center">
@@ -88,7 +91,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Portfolio Section -->
     <div id="portfolio">
         <div class="container">
