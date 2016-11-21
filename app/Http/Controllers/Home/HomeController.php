@@ -12,6 +12,19 @@ use Illuminate\Support\Facades\Validator;
 class HomeController extends Controller
 {
     public function show() {
+        $portefolios = DB::select('SELECT * FROM portefolios
+        LEFT JOIN links
+        ON portefolios.id = links.portefolios_id');
+        $tasks = DB::select('SELECT * FROM tasks');
+        $tags = DB::select('SELECT tags.*, portefolios.id as portefolios_id FROM tags
+        INNER JOIN tags_has_portefolios
+        ON tags_has_portefolios.tags_id = tags.id
+        INNER JOIN portefolios
+        ON tags_has_portefolios.portefolios_id = portefolios.id');
+
+
+        //dd($tasks);
+
         return view('home/home');
     }
 
