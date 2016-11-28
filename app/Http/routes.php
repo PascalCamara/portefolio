@@ -20,4 +20,6 @@ Route::get('/admin', 'Admin\AdminController@index')->middleware('admin');
 Route::get('/admin/login', 'Admin\AdminController@login');
 Route::get('/admin/portefolio', 'Admin\AdminController@portefolio')->middleware('admin');
 
+
 Route::post('/admin/login', 'Admin\AdminController@login');
+Route::post('/admin/portefolio', 'Admin\AdminController@portefolioStore')->middleware('admin');

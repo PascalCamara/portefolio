@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Portefolio;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -30,12 +31,30 @@ class AdminController extends Controller
     }
 
     public function portefolio() {
+        $portefolios = Portefolio::all()->toBase();
+        return view("admin/portefolio", [ "portefolios" => $portefolios ]);
+    }
 
-        $portefolios = DB::table("portefolios")->get();
+    public function portefolioStore(Request $request) {
+        if ($request->isMethod("post")){
 
+//            if ($request->hasFile("vignette")) {
+//                $file = $request->file("vignette");
+//                $fileName = md5($file->getFilename()) . $file->getClientOriginalExtension();
+//                $path = public_path("portefolio_pics/", $fileName);
+//            }
+//            dd();
 
+            $portefolio = Portefolio::find($request->id);
+            $portefolio->title = $request->title;
+            $portefolio->description = $request->description;
+            $portefolio->vignette = $request->vignette;
+            $portefolio->vignette_1 = $request->vignette_1;
+            $portefolio->vignette_2 = $request->vignette_2;
+            $portefolio->save();
 
+        }
+        return redirect("/admin/portefolio");
 
-        dd($portefolios);
     }
 }
